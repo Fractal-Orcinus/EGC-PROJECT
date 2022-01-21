@@ -94,6 +94,36 @@
 	            margin-left: auto;
 	            margin-right: auto;
             }
+            .noice_background_box{
+                border-radius: 25px;
+                background-color: whitesmoke;
+                height: auto;
+            }
+            .parent {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                grid-column-gap: 5px;
+                grid-row-gap: 05px;
+            }
+            .location {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                grid-column-gap: 0px;
+                grid-row-gap: 0px;
+            }
+
+
+            .address { 
+                grid-area: 2 / 1 / 3 / 3; 
+                text-align: center;}
+            .map { 
+                grid-area: 2 / 3 / 4 / 5;
+                text-align: center; }
+
+
+
             
 
 
@@ -120,7 +150,7 @@
                 <li> <a href="../index.html" Title="Home Page">Home</a></li>
                 <li><a href="menu.html" Title="Menu">Menu</a></li>
                 <li><a href="Order.html" title="Order" >Order</a></li>
-                <li><a href="gallery.html" Title="gallery"> gallery</a></li>
+                <li><a href="Contact.html" Title="Contact Us"> Contact Us</a></li>
                 <li><a href="member.html" Title="member">Member</a></li>
             </ul>
         
@@ -131,7 +161,44 @@
             </ul>
         </nav>
 
-        <div>
+        <div class="noice_background_box">
+            <div class="location">
+                
+                <div class="address">
+                    <h2> Ishiro@Hougang</h2>
+                    <br>    
+                    <div>
+                        <p>Address: 21 Hougang St 51, 01-02 Food Loft Coffeeshop, Singapore 538719</p>
+                    <br>
+                        <p>
+                        Tel : +65 8298 5157                   
+                     </p>
+                     <br>    
+                    <p>
+                        <a href="mailto:contacus@ishiro.sg">Email: contacus@ishiro.sg  </a>
+                    </p>
+                    <p>
+                        Official Website:
+                        <a href="https://www.ishiro.sg/">https://www.ishiro.sg/</a>
+                    </p>
+
+
+                    </div>
+                  
+                </div>
+                
+                <div class="map"> 
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m15!1m8!1m3!1d15954.642478737096!2d103.890682!3d1.380288!3m2!1i1024!2i768!4f13.1!4m4!3e3!4m0!4m1!2sIshiro%20Fusion%20Bowl%2C%2021%20Hougang%20St%2051%2C%2001-02%2C%20Food%20Loft%20Coffeeshop%2C%20Singapore%20538719!5e0!3m2!1sen!2ssg!4v1642752041468!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>  
+
+                </div>
+
+
+
+            </div>
+    
+
+
+
             
         </div>
         
