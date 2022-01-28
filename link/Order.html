@@ -4,115 +4,18 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>PROJECT</title>
-        <style>
-            *{padding: 0px; margin:0px;}
-            body{
-                width: 1366px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            body{
-                background-image: url(../image/istockphoto-1141848059-612x612.jpg);
-                background-repeat: repeat;}
-            nav a {
-                display: block;
-                text-align: center;
-                text-decoration: none;
-                padding: 0.5em;
-                }
-            nav a:hover{
-                transform: scale(1.2);
-                transition: all ease ;
-                border-radius: 15px;
-            }
-            
-            .top_nav{
-                background-color: #d08770;
-                height: 50px;
-                font-size: 1.3em;
-                border-radius: 25px;
-                display: flex;
-            }
-            .top_nav img{
-                width: 40px;
-                height: 30px;
-            }
-            li a{
-                color: black;
-                font-family: 'Times New Roman', Times, serif;
-            }
-            .mainmenu{
-                display: flex;
-                justify-content: flex-start;
-                list-style-type: none;
-                font-size: 1.2em;
-                text-align: center;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            a{
-                text-decoration: none;
-            }
-  
-            .social_media{
-                display:flex;
-                list-style-type: none;
-                font-size: 150%;
-                text-align: center;
-                margin-right: 15px;
-            }
-            nav ul.social_media{
-                flex:1;
-                justify-content: flex-end;
-                  }
-            
-            .promotion{
-                background-color: #d8dee9;
-                padding-left: 15px;
-                padding-right: 5px;
-                padding-top: 15px;
-                padding-bottom: 15px;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;
-                font-size: 0.9em;
-                justify-content: center;
-                
-
-            }
-            footer {
-                height: 2em;
-                background-color: #d08770;
-                text-align:center;
-                font-size: 1.3em;
-                color: black;
-                z-index: 2;
-		    }
-            footer{
-	            position: fixed;
-                bottom: 0px;
-                width: 1366px;
-                height: 2em;
-	            margin-left: auto;
-	            margin-right: auto;
-            }
-            
-
-
-            
-
-        </style>
+        <link rel="stylesheet" href="../css/projectcss.css">
+        
 
     </head>
     <body>
+        <br>
         <div >
             <div class="promotion">
                 <p><strong>Current promotion:</strong> buy 3 get 1 free from hougang outlet! </p>
-                
-
-
             </div>
-            
-            
-
+            <br>
+          
         </div>
         <nav class="top_nav">
           
@@ -131,7 +34,172 @@
             </ul>
         </nav>
 
-        <div>
+        <div class="noice_background_box">
+            <br>
+            <div class="centertext">
+                <h2>Order 3 days in Advance</h2>
+            </div>
+            <div>
+                <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+                <fieldset>
+                    <div class="orderpage">
+                   
+                    <div >
+                        <p>Place Order here:</p>
+                        <div class="orderform">
+                            <label>Option 1: </label>
+                            <select name="option 1" >
+                                <option value="0">Please Choose an item</option>
+                                <option value="A1">Ishiro Chasu Bowl</option>
+                                <option value="A2">Iberico Pork Bowl</option>
+                                <option value="A3">Mentaiko Chicken Katsu Bowl</option>
+                                <option value="A4">Sukiya Beef Bowl</option>
+                                <option value="A5">Grilled Unagi Bowl</option>
+                                <option value="A6">Grilled Chicken Bowl</option>
+                                <option value="A7">Mentaiko Salmon BOwl</option>
+                            </select>
+                            <br>
+                            <label>Quantity:</label>
+                            <input type="number" min="1" max="200" required>
+                        </div>
+                        <br>
+                        <div class="orderform">
+                            <label>Option 2:</label>
+                            <select name="option 2" >
+                                <option value="NIL">NIL</option>
+                                <option value="A1">Ishiro Chasu Bowl</option>
+                                <option value="A2">Iberico Pork Bowl</option>
+                                <option value="A3">Mentaiko Chicken Katsu Bowl</option>
+                                <option value="A4">Sukiya Beef Bowl</option>
+                                <option value="A5">Grilled Unagi Bowl</option>
+                                <option value="A6">Grilled Chicken Bowl</option>
+                                <option value="A7">Mentaiko Salmon BOwl</option>
+                            </select>
+                            <br>
+                            <label>Quantity:</label>
+                            <input type="number" min="0" max="200"  >
+                        </div>
+                        <br>
+                        <div class="orderform">
+                            <label>Option 3:</label>
+                            <select name="option 3" >
+                                <option value="NIL">NIL</option>
+                                <option value="A1">Ishiro Chasu Bowl</option>
+                                <option value="A2">Iberico Pork Bowl</option>
+                                <option value="A3">Mentaiko Chicken Katsu Bowl</option>
+                                <option value="A4">Sukiya Beef Bowl</option>
+                                <option value="A5">Grilled Unagi Bowl</option>
+                                <option value="A6">Grilled Chicken Bowl</option>
+                                <option value="A7">Mentaiko Salmon BOwl</option>
+                            </select>
+                            <br>
+                            <label>Quantity:</label>
+                            <input type="number" min="0" max="200" >
+                        </div>
+                        <br>
+                        <div class="orderform">
+                            <label>Option 4: </label>
+                            <select name="option 4" >
+                                <option value="NIL">NIL</option>
+                                <option value="A1">Ishiro Chasu Bowl</option>
+                                <option value="A2">Iberico Pork Bowl</option>
+                                <option value="A3">Mentaiko Chicken Katsu Bowl</option>
+                                <option value="A4">Sukiya Beef Bowl</option>
+                                <option value="A5">Grilled Unagi Bowl</option>
+                                <option value="A6">Grilled Chicken Bowl</option>
+                                <option value="A7">Mentaiko Salmon BOwl</option>
+                            </select>
+                            <br>
+                            <label>Quantity:</label>
+                            <input type="number" min="0" max="200" >
+                        </div>
+                        <br>
+                        <div class="orderform">
+                            <label>Option 5: </label>
+                            <select name="option 5" >
+                                <option value="NIL">NIL</option>
+                                <option value="A1">Ishiro Chasu Bowl</option>
+                                <option value="A2">Iberico Pork Bowl</option>
+                                <option value="A3">Mentaiko Chicken Katsu Bowl</option>
+                                <option value="A4">Sukiya Beef Bowl</option>
+                                <option value="A5">Grilled Unagi Bowl</option>
+                                <option value="A6">Grilled Chicken Bowl</option>
+                                <option value="A7">Mentaiko Salmon BOwl</option>
+                            </select>
+                            <br>
+                            <label>Quantity:</label>
+                            <input type="number" min="0" max="200">
+                        </div>
+                        <br>
+                        <div class="orderform">
+                            <label>Option 6: </label>
+                            <select name="option 6" >
+                                <option value="NIL">NIL</option>
+                                <option value="A1">Ishiro Chasu Bowl</option>
+                                <option value="A2">Iberico Pork Bowl</option>
+                                <option value="A3">Mentaiko Chicken Katsu Bowl</option>
+                                <option value="A4">Sukiya Beef Bowl</option>
+                                <option value="A5">Grilled Unagi Bowl</option>
+                                <option value="A6">Grilled Chicken Bowl</option>
+                                <option value="A7">Mentaiko Salmon BOwl</option>
+                            </select>
+                            <br>
+                            <label>Quantity:</label>
+                            <input type="number" min="0" max="200" >
+                        </div>
+                        <br>
+
+
+
+                    </div>
+                    <br>
+                    <div class="ordernow">
+                        <br><br><br><br><br><br><br><br>
+                        <p class="contactdetail">Free delivery</p>
+                        <br>
+                        <p class="contactdetail">Contact Details</p>
+                        <br><br>
+                        <div>
+                            <label>
+                                Email Address:
+                            </label>
+                            <input required  type="email"  name="email">
+                        </div>
+                        <br>
+
+                        <div>
+                            <label>Name:</label>
+                            <input type="text" name="name"  required>
+                        </div>
+                        
+                        <br>
+                        <div>
+                            <label>Address</label>
+                            <input type="text" required>
+                        </div>
+                        <br>
+                        <div>
+                        <label for="phone"> Mobile Number:</label>
+                        <input type="text" pattern="[0-9]{8}" id="phone" name="Phone"  placeholder="no country code required" required>
+                        
+                        </div>
+                        <br><br>
+                        <div class="buttonpos">
+                            <input type="submit" value="Order Now" class="login">
+                        </div>
+                        <br><br><br><br><br><br>
+                        
+                        
+
+
+                    </div>
+                </div>
+                </fieldset>
+                
+                </form>
+
+            </div>
+
             
         </div>
         
