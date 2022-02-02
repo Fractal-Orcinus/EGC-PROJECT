@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>PROJECT</title>
+        <title>Order&nbspnow</title>
         <link rel="stylesheet" href="../css/projectcss.css">
         
 
@@ -12,7 +12,7 @@
         <br>
         <div >
             <div class="promotion">
-                <p><strong>Current promotion:</strong> buy 3 get 1 free from hougang outlet! </p>
+                <p>Current promotion: <strong>buy 3 get 1 free from hougang outlet!</strong> </p>
             </div>
             <br>
           
@@ -29,27 +29,34 @@
         
     
             <ul class="social_media">
-                <li><a href="https://www.instagram.com/ishirosg/?hl=en"><img src="/image/instgram_vector.png" alt=""></a></li>
-                <li><a href="https://www.facebook.com/IshiroSG"><img src="/image/facebook-logo-png-2320.png" alt=""></a></li>
+                <li><a href="https://www.instagram.com/ishirosg/?hl=en"><img src="../image/instgram_vector.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/IshiroSG"><img src="../image/facebook-logo-png-2320.png" alt=""></a></li>
             </ul>
         </nav>
 
         <div class="noice_background_box">
             <br>
             <div class="centertext">
-                <h2>Order 3 days in Advance</h2>
+                <h2>Free Delivery</h2>
             </div>
-            <div>
+            <div class="checkout">
+                <img src="../image/Screenshot from 2022-02-02 16-05-23.png" alt="">
+            </div>
+
+            <div class="orderalign">
                 <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
                 <fieldset>
                     <div class="orderpage">
+                        
                    
-                    <div >
-                        <p>Place Order here:</p>
+                    <div>
+                        <p class="ordertext">Place Order Here</p>
+                        <br><br>
+                        
+                        <div><h1>Item Options:</h1></div>
                         <div class="orderform">
                             <label>Option 1: </label>
-                            <select name="option 1" >
-                                <option value="0">Please Choose an item</option>
+                            <select name="option 1" required >
                                 <option value="A1">Ishiro Chasu Bowl</option>
                                 <option value="A2">Iberico Pork Bowl</option>
                                 <option value="A3">Mentaiko Chicken Katsu Bowl</option>
@@ -153,29 +160,50 @@
 
                     </div>
                     <br>
+                    
                     <div class="ordernow">
-                        <br><br><br><br><br><br><br><br>
-                        <p class="contactdetail">Free delivery</p>
                         <br>
-                        <p class="contactdetail">Contact Details</p>
-                        <br><br>
+                        <br><br><br><br>
+                        <div class="DeliveryDate">
+                            <p><h1>Delivery Date:</h1></p>
+                            <br>
+                            <label>Delivery Day:</label>   
+                            <input name="delivery day" type="date" min="2022-02-02" required>
+                            <br><br>
+                            <label >Delivery Time:</label>
+                            <select name="option 1" required >
+                                <option value="10-11">10AM - 11AM</option>
+                                <option value="11-12">11AM - 12PM</option>
+                                <option value="12-13">12PM - 1PM</option>
+                                <option value="13-14">1PM - 2PM</option>
+                                <option value="14-15">2PM - 3PM</option>
+                                <option value="15-16">3PM - 4PM</option>
+                                <option value="16-17">5PM - 6PM</option>
+                                <option value="18-19">6PM - 7PM</option>
+                                <option value="19-20">7PM - 8PM</option>
+                            </select>
+                        </div>
+                        
+                        <br>
+                        <p class="contactdetail"><h1>Contact Details</h1></p>
+                        <br>
                         <div>
                             <label>
                                 Email Address:
                             </label>
-                            <input required  type="email"  name="email">
+                            <input required  type="email"  name="email" placeholder="Email Address">
                         </div>
                         <br>
 
                         <div>
                             <label>Name:</label>
-                            <input type="text" name="name"  required>
+                            <input type="text" name="name" placeholder="Name" required>
                         </div>
                         
                         <br>
                         <div>
                             <label>Address</label>
-                            <input type="text" required>
+                            <input type="text" name="Address" placeholder="Address" required>
                         </div>
                         <br>
                         <div>
@@ -183,7 +211,12 @@
                         <input type="text" pattern="[0-9]{8}" id="phone" name="Phone"  placeholder="no country code required" required>
                         
                         </div>
-                        <br><br>
+                        <br>
+                        <div>
+                            <label> Special Request:</label>
+                            <textarea name="request" rows="5" cols="50"  value="Special Request" placeholder="Special Request" > </textarea>
+                        </div>
+                        <br><br><br><br><br>
                         <div class="buttonpos">
                             <input type="submit" value="Order Now" class="login">
                         </div>
@@ -208,8 +241,11 @@
 
 
         <footer>
-           test
-        </footer>
+            <div>&nbsp&nbspCreated by Group C5 211310X ©</div>
+            <div class="footerthing">&nbsp&nbspThis Webpage is made for the purpose of EGC182 project assignment. image assets are owned by Ishiro
+         </div>
+             <br>        
+            </footer>
 
         
 
